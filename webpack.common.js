@@ -6,7 +6,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 const smp = new SpeedMeasurePlugin();
 module.exports = smp.wrap({
-    entry: './src/main/index.tsx',
+    entry: './src/main/index.ts',
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'main-bundle-[hash].js',
