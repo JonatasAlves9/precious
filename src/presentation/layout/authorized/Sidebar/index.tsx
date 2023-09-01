@@ -18,8 +18,10 @@ export const Sidebar = () => {
                         display: 'flex',
                         padding: 5
                     }}>
-                        <TextBulletListSquare32Regular/>
-                        <Text>Tasks</Text>
+                        <TextBulletListSquare32Regular color={tokens.colorNeutralForeground2BrandSelected}/>
+                        <Text style={{
+                            color: tokens.colorNeutralForeground2BrandSelected
+                        }}>Tasks</Text>
                     </div>
                 </Tab>
                 <Tab value="tab2">
@@ -29,8 +31,10 @@ export const Sidebar = () => {
                         padding: 5
 
                     }}>
-                        <Notebook32Regular/>
-                        <Text>Notes</Text>
+                        <Notebook32Regular color={tokens.colorNeutralForeground3}/>
+                        <Text style={{
+                            color: tokens.colorNeutralForeground3
+                        }}>Notes</Text>
                     </div>
                 </Tab>
             </>
