@@ -1,6 +1,6 @@
 import React from "react";
 import {Header} from "@/presentation/layout/non-authorized/Header";
-import {Wrapper} from "@/presentation/layout/non-authorized/Wrapper";
+import {Wrapper} from "presentation/layout/Wrapper";
 
 interface IProps {
     children: JSX.Element;

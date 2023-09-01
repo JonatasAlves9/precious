@@ -1,5 +1,5 @@
 import React from "react";
-import {Container} from "@/presentation/layout/non-authorized/Wrapper/styles";
+import {Container} from "@/presentation/layout/Wrapper/styles";
 
 interface IProps {
     children: JSX.Element;
