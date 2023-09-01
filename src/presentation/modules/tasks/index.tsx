@@ -1,9 +1,12 @@
 import React from "react";
+import {Sidebar} from "@/presentation/modules/tasks/components/sidebar";
+import {Content, Wrapper} from "@/presentation/modules/tasks/styles";
 
 export const Tasks = () => {
-    return(
-        <div>
-            Tasks
-        </div>
+    return (
+        <Wrapper>
+            <Sidebar/>
+            <Content/>
+        </Wrapper>
     );
 }

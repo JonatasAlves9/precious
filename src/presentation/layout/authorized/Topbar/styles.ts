@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   flex: 0 0 auto; // A barra superior não se estica, mantém sua altura
   padding: 10px;
   display: flex;
-  background-color: red;
   justify-content: space-between;
   align-items: center;
   box-shadow: ${tokens.shadow2};
@@ -26,4 +25,8 @@ export const ViewSideRight = styled.div`
 
 export const ViewCenter = styled.div`
   width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 `;
+

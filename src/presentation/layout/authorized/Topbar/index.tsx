@@ -1,18 +1,18 @@
-import React, {useId} from "react";
+import React from "react";
 import {ViewCenter, ViewSideRight, ViewSides, Wrapper} from "@/presentation/layout/authorized/Topbar/styles";
 import {Avatar, Input, tokens} from "@fluentui/react-components";
-import {
-    Search16Filled, MoreHorizontal16Regular
-} from "@fluentui/react-icons";
-
+import {MoreHorizontal16Regular, Search16Filled} from "@fluentui/react-icons";
+import {ChevronLeft16Regular, ChevronRight16Regular} from '@fluentui/react-icons'
 export const Topbar = () => {
     return (
         <Wrapper style={{
-            backgroundColor: tokens.colorPaletteBlueBackground2
+            backgroundColor: tokens.colorBrandBackground2
         }}>
             <ViewSides></ViewSides>
             <ViewCenter>
-                <Input contentBefore={<Search16Filled/>} appearance={'filled-darker'} placeholder={'Search'} style={{
+                <ChevronLeft16Regular/>
+                <ChevronRight16Regular/>
+                <Input contentBefore={<Search16Filled/>} placeholder={'Search'} style={{
                     width: '100%'
                 }} id={"before-label"}/>
             </ViewCenter>
